@@ -17,6 +17,7 @@ function App() {
       });
       setExplanations(res.data);
     } catch (err) {
+      console.log
       console.error(err);
       setError("Something went wrong. Please try again.");
       setExplanations(null);
