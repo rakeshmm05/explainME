@@ -1,4 +1,22 @@
+/* index.css */
 :root {
+  --bg: #ffffff;
+  --text: #111827;
+}
+
+[data-theme='dark'] {
+  --bg: #111827;
+  --text: #f9fafb;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  transition: 0.3s ease;
+}
+
+
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +83,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
